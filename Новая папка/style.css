@@ -1,0 +1,661 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+}
+
+.bosh {
+    width: 100%;
+    height: 728px;
+    background-image: url("img/headd.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.menu {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.home {
+    text-decoration: none;
+    align-items: center;
+    display: flex; justify-content: center;
+    padding-left: 10px;
+    margin-left: 600px;
+    gap: 15px;
+    
+
+}
+.dude>h3 {
+    margin-left: 100px;
+    color: #18BD4F;
+;
+}
+
+.menu>div {
+    margin-right: 200px;
+}
+.home li {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+    list-style: none;
+}
+.home a {
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+} 
+
+.dashb{
+    margin-left: -800px;
+}
+
+.search {
+    padding: 1px 1px;
+    font-size: 18px;
+    width: 120px;
+    height: 25px;
+    border: 1px #D0FFD2;
+    background-color:  #D0FFD2;
+;
+}
+input::placeholder {
+    border: 0px #D0FFD2;
+    font-size: 18px;
+}
+.fa-user-o{
+    margin-top: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+.text1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: flex-start;   
+    padding-left: 200px;       
+    padding-right: 150px;     
+    box-sizing: border-box;    
+    color: black;
+    padding-top: 150px;
+    margin-top: -120px;
+}
+.text1>div>p{
+    color: #FFB12B;
+    font-family: Inter;
+font-weight: 400;
+font-size: 24px;
+}
+
+.text1>div>h1 {
+    font-family: Inter;
+font-weight: 600;
+font-size: 64px;
+line-height: 74px;
+letter-spacing: 0%;
+}
+
+.text1>div>button{
+    padding: 5px 30px;
+    width: 150;
+    margin-top: 20px;
+height: 40;
+top: 609.17px;
+left: 120px;
+
+opacity: 1;
+border-radius: 5px;
+background-color: #18BD4F;
+border: 1px solid #18BD4F;
+color: white;
+}
+
+.otadiv{
+    display: flex;           /* yonma-yon qilish */
+    justify-content: center; /* o‘rtaga joylashtirish */
+    gap: 20px;               /* cardlar orasidagi masofa */
+    margin-top: 50px;
+}
+
+
+.card{
+    justify-content: center;
+    width: 370px;
+height: 220px;
+margin-top: -165px;
+margin-left: 60px;
+padding-left: 20px;
+font-size: 25px;
+opacity: 1;
+background-color: #8f34341a;
+border-radius: 15px;
+justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.img1, .img2, .img3{
+    width: 150px;
+    margin-right: 25px;
+}
+.brr {
+    color: #18BD4F;
+}
+
+.otadiv .card:nth-child(1) {
+    background-color: #F7FDF9;
+}
+
+.otadiv .card:nth-child(2) {
+    background-color: #FFFBF4;
+}
+
+.otadiv .card:nth-child(3) {
+    background-color: #F4F5F6;
+}
+
+.otadiv .card .card1 span{
+    font-size: 24px;
+    color: #18BD4F;
+}
+.otadiv .card .card2 span{
+    font-size: 24px;
+    color: #18BD4F;
+}
+.otadiv .card .card3 span{
+    font-size: 24px;
+    color: #FE5C4D;
+}
+
+.otadiv .card .card1 button{
+    width: 106px;
+height: 30px;
+margin-top: 20px;
+background-color: #2F4858;
+color: white;
+border-radius: 3px;
+border: #2F4858 1px;
+
+}
+.otadiv .card .card2 button{
+    width: 106px;
+height: 30px;
+margin-top: 20px;
+background-color: #FFB12B;
+color: black;
+border-radius: 3px;
+border: #FFB12B 1px;
+
+}
+.otadiv .card .card3 button{
+    width: 106px;
+height: 30px;
+margin-top: 20px;
+background-color: #18BD4F;
+color: white;
+border-radius: 3px;
+border: #18BD4F 1px;
+
+}
+.asos1 {
+width: 265px;
+height: 365px;
+top: 1260px;
+left: 120px;
+background-color: #F4F5FA;
+margin: 20px 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+
+
+}
+
+.out h1{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.asos{
+    background-color: white; height: 150vh;
+    display: flex;
+    justify-content: center; align-items: center;
+    display: grid;
+    padding: 50px 70px;
+    grid-template-columns: repeat(4, 1fr);
+    
+    
+}
+
+.kard1{
+    width: 100%;
+    height: 200px;
+    background-image: url("img/potato.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px; 
+
+}
+.teks{
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    color: #000000;
+    justify-content: space-between;
+    display: flex;
+}
+.lor{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+.tugma{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #18BD4F;
+    color: white;
+    border: 1px solid #18BD4F;
+    margin-left: 10%;
+}
+
+
+
+
+.kard2{
+
+width: 100%;
+    height: 200px;
+    background-image: url("img/meet.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.kard3{
+
+width: 100%;
+    height: 200px;
+    background-image: url("img/kartoshka.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.kard4{
+
+width: 100%;
+    height: 200px;
+    background-image: url("img/cucumber.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.kard5{
+
+width: 100%;
+    height: 200px;
+    background-image: url("img/bodring.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.kard6{
+
+width: 100%;
+    height: 200px;
+    background-image: url("img/banana.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.kard7{
+
+width: 100%;
+    height: 200px;
+    background-image: url("img/onion.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.kard8{
+
+width: 100%;
+    height: 200px;
+    background-image: url("img/nuxat.png"); 
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.limg img{
+    margin-left: 120px;
+    width: 540px;
+}
+.urta{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-right: 121px;
+
+}
+.fact {
+    opacity: 0.5;
+}
+.ggg{
+    margin-bottom: 30px;
+}
+.fa-check-circle{
+    margin-bottom: 10px;
+    color: #18BD4F;
+}
+ 
+
+.limg1 img{
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-right: 1px;
+    width: 540px;
+}
+
+.urta1{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-right: 121px;
+
+}
+.fact1 {
+    opacity: 0.5;
+}
+.ggg1{
+    margin-bottom: 30px;
+}
+
+.urta1 div{
+    margin-left: 6%;
+}
+.tugma1 button{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #18BD4F;
+    color: white;
+    border: 1px solid #18BD4F;
+}
+
+
+.urta2{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-right: 121px;
+
+}
+.fact2 {
+    opacity: 0.5;
+}
+.ggg2{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.limg2 img{
+    margin-top: 200px;
+    border-radius: 10px;
+    margin-left: 120px;
+    width: 540px;
+}
+.ftext{
+    margin-left: 200px;
+}
+
+.dr{
+    color: #18BD4F;
+}
+
+.fimg {
+    
+    margin-top: 160px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.fimg img{
+    width: 1000px;
+    height: auto;
+    border-radius: 37px;
+     
+}
+
+.foot{
+    margin-top: -200px;
+    width: 100%;
+    height: 572px;
+    background-color: #333333;
+}
+
+.fftext h1{
+    margin-top: -100px;
+    justify-content: center;
+    display: flex;
+
+}
+
+/*responsive            uchun           joyy*/
+
+/* === RESPONSIVE DESIGN === */
+
+/* 📱 Telefonlar (max 600px) */
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .dude > h3 {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .text1 {
+        padding: 50px 20px;
+        margin-top: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text1 > div > h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .text1 > div > p {
+        font-size: 18px;
+    }
+
+    .otadiv {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+        padding: 15px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img1, .img2, .img3 {
+        width: 100px;
+        margin: 10px 0;
+    }
+
+    .asos {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+        height: auto;
+    }
+
+    .limg img, .limg1 img, .limg2 img {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .urta, .urta1, .urta2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .fimg img {
+        width: 90%;
+    }
+
+    .foot {
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .fftext h1 {
+        font-size: 24px;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+/* 💻 Planshetlar (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .home {
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .text1 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .text1 > div > h1 {
+        font-size: 48px;
+    }
+
+    .otadiv {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+        height: auto;
+        margin: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .asos {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+    }
+
+    .limg img, .limg1 img, .limg2 img {
+        width: 80%;
+    }
+
+    .fimg img {
+        width: 80%;
+    }
+}
+
+/* 🖥️ Katta ekranlar (1025px va undan katta) */
+@media (min-width: 1025px) {
+    .asos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
